@@ -1,0 +1,9 @@
+#num {
+  width: 100px;
+  border-width: thick;
+}
+
+#result {
+  width: 70%;
+  color: blue;
+}
