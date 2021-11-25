@@ -39,3 +39,7 @@ Test: "It should return an array of strings counting up to the number inputted"
 Code: substituteNumbers(5)
 Expected Output: ["0","1","2","3","4","5"]
 
+Test: "It should substitute any number containing a "1" with "Beep!"
+Code: substituteNumbers(5)
+Expected Output: ["0","Beep!","2","3","4","5"]
+
