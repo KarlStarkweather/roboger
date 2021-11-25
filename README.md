@@ -46,3 +46,7 @@ Expected Output: ["0","Beep!","2","3","4","5"]
 Test: "It should substitute any number containing a "2" with "Boop!" or a "3" with "Won't you be my neighbor?"
 Code: substituteNumbers(5)
 Expected Output:  ["0","Beep!","Boop!","Won't you be my neighbor?","4","5"]
+
+Test: "It should prioritize substituting 3, then 2, then 1"
+Code: substituteNumbers(15)
+Expected Output: ['0', 'Beep!', 'Boop!', "Won't you be my neighbor?", '4', '5', '6', '7', '8', '9', 'Beep!', 'Beep!', 'Boop!', "Won't you be my neighbor?", 'Beep!', 'Beep!']
