@@ -1,3 +1,5 @@
+//Business Logic
+
 function substituteNumbers(num) {
   let countUp = [];
     for(let i = 0; i <= num; i++) {
@@ -14,4 +16,6 @@ function substituteNumbers(num) {
   });
   return newCount;
 }
+
+//UI Logic
 
