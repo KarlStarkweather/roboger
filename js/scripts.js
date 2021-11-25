@@ -18,4 +18,8 @@ function substituteNumbers(num) {
 }
 
 //UI Logic
-
+$(document).ready(function() {
+  $("#num").change(function() {
+    $("#result").text(substituteNumbers($("#num").val()));
+  })
+})
